@@ -1,0 +1,40 @@
+.rules-global {
+    background-color: #05062D;
+    color: white;
+}
+.rules {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.rules p { 
+    max-width: 75ch;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+
+.rules-global h2 { 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    text-align : center;
+    margin : 0;
+    padding-top: 2rem;
+    background: linear-gradient(#AF40FF, #5B42F3 ,#00DDEB);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rules-global h3 { 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    text-align : center;
+    margin : 0;
+    padding-bottom: 2rem;
+    background: linear-gradient(#AF40FF, #5B42F3 ,#00DDEB);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rules-global ul {
+    list-style-type: none;
+}

@@ -1,0 +1,93 @@
+.game{
+  background-image: url("../../assets/scene.jpg");
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  min-height: 70vh;
+  color : white
+}
+.score {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  padding-top: 3rem;
+}
+.lecteur-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lecteur {
+  background-color: #ffffff;
+  opacity: 0.1;
+}
+.play {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+.question {
+  width: 99vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.game-avatar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-bottom: 5rem;
+  width: 99vw;
+}
+.game-avatar h2 {
+  padding-bottom: 3rem;
+}
+.avatar img {
+  border: 1px solid #05062D;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(#AF40FF, #5B42F3,#00DDEB);
+  border: 2px solid #05062D;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  margin-left: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-63:active {
+  outline: 0;
+}
+.right img {
+  border: 3px solid green;
+  box-shadow: 0 0 5px green, 0 0 10px green, 0 0 15px green, 0 0 20px green;
+}
+.wrong img {
+  border: 3px solid red;
+  box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red;
+}
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}

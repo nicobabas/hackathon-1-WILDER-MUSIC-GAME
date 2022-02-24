@@ -1,0 +1,31 @@
+/* .containerStyle {
+  border: 1px solid silver;
+  background-color: #ededed;
+}
+
+.contentStyle {
+  margin-top: 5rem;
+  background: #00cc00;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  font-family: sans-serif;
+  transition: 0.3s;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.poucentprogress {
+  margin-top: 50px;
+}
+
+.header {
+  color: black;
+}
+
+.ProgressBar {
+  background: linear-gradient(#AF40FF, #5B42F3,#00DDEB);
+}
